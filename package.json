@@ -1,0 +1,29 @@
+{
+  "name": "minimal-typescript-rxjs",
+  "version": "0.0.1",
+  "description": "testing rxjs with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gahen/minimal-typescript-rxjs.git"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript",
+    "minimal"
+  ],
+  "author": "Joaquín Omar Tumas <j.tumas@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Gahen/minimal-typescript-rxjs/issues"
+  },
+  "homepage": "https://github.com/Gahen/minimal-typescript-rxjs#readme",
+  "dependencies": {
+    "@types/rx": "^4.1.1",
+    "node-fetch-polyfill": "^2.0.6",
+    "rxjs": "^5.5.2"
+  }
+}
