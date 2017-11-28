@@ -16,7 +16,7 @@
     "minimal"
   ],
   "author": "Joaquín Omar Tumas <j.tumas@gmail.com>",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Gahen/minimal-typescript-rxjs/issues"
   },
