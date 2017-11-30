@@ -9,7 +9,7 @@ stdin.setEncoding( 'utf8' );
 // on any data into stdin
 const inputStream = Rx.Observable.fromEvent(stdin, 'data')
 
-const inputStreamClose = inputStream.filter(r => r === 'x')
+# const inputStreamClose = inputStream.filter(r => r === 'x')
 const inputStreamElse = inputStream.filter(r => r !== 'x')
 
 var interactiveReqStream = inputStreamElse
